@@ -7,12 +7,12 @@ export default function Logo() {
       <img
         className="block h-8 w-auto lg:hidden"
         src={logo}
-        alt="jrs"
+        alt="bot"
       />
       <img
         className="hidden h-8 w-auto lg:block"
         src={logo}
-        alt="jrs"
+        alt="bot"
       />
     </div>
   );
