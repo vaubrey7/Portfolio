@@ -1,5 +1,5 @@
-import gitHubLogo from "../../Assets/Images/GitHub-Logo.png";
-import projects from "../../Assets/Projects";
+import gitHubLogo from "../../Assests/Images/GitHub-Logo.png";
+import projects from "../../Assests/Projects";
 
 export default function Work() {
  

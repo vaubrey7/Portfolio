@@ -1,15 +1,15 @@
-import designIcon from "../../Assets/Images/design2.png";
-import backEndIcon from "../../Assets/Images/backend2.png";
-import frontEndIcon from "../../Assets/Images/frontend2.png";
+import designIcon from "../../Assests/Images/design2.png";
+import backEndIcon from "../../Assests/Images/backend2.png";
+import frontEndIcon from "../../Assests/Images/frontend2.png";
 import { useState, useEffect } from "react";
 import { Link, useMatch, useResolvedPath } from "react-router-dom";
-import pp1 from "../../Assets/Images/pp1.jpg";
-import pp2 from "../../Assets/Images/pp2.jpg";
-import pp3 from "../../Assets/Images/pp3.jpg";
-import pp4 from "../../Assets/Images/pp4.jpg";
-import pp5 from "../../Assets/Images/pp5.jpg";
-import pp6 from "../../Assets/Images/pp6.jpg";
-import pp7 from "../../Assets/Images/pp7.jpg";
+import pp1 from "../../Assests/Images/pp1.jpg";
+import pp2 from "../../Assests/Images/pp2.jpg";
+import pp3 from "../../Assests/Images/pp3.jpg";
+import pp4 from "../../Assests/Images/pp4.jpg";
+import pp5 from "../../Assests/Images/pp5.jpg";
+import pp6 from "../../Assests/Images/pp6.jpg";
+import pp7 from "../../Assests/Images/pp7.jpg";
 
 export default function About() {
   const images = [pp1, pp2, pp3, pp4, pp5, pp6, pp7];
@@ -22,7 +22,7 @@ export default function About() {
       }
       setImage(ref);
     }, 1000);
-  }, [images]);
+  }, [images]); 
 
   return (
     <>

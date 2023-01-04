@@ -1,5 +1,5 @@
-import gitHubLogo from "../../Assets/Images/GitHub-Logo.png";
-import gitHubGistLogo from "../../Assets/Images/GitHubGistlogo.png";
+import gitHubLogo from "../../Assests/Images/GitHub-Logo.png";
+import gitHubGistLogo from "../../Assests/Images/GitHubGistlogo.png";
 
 export default function Github() {
   return (
@@ -40,7 +40,7 @@ export default function Github() {
             <p className="leading-relaxed text-base">
               Some most excellent gists for your tech-ed needs.
             </p>
-            <a href="https://gist.github.com/j-art-fox">
+            <a href="https://gist.github.com/vaubrey7/189750a021ca319a166c116ea799a57d">
               <button className="flex mx-auto mt-6 text-white bg-indigo-500 border-0 py-2 px-5 focus:outline-none hover:bg-indigo-600 rounded">
                 Let's Go
               </button>
