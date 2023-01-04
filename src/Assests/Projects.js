@@ -1,5 +1,5 @@
 import LydiaImg from "../Assests/Images/Lydia.jpg";
-import PWImg from "../Assests/Images/Password_Generator.jpg"
+import PWImg from "../Assests/Images/Password_Generator.png"
 import TRTImg from "../Assests/Images/Regex_Tutorial.png";
 
 const projects = [

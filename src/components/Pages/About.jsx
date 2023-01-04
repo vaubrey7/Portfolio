@@ -21,7 +21,7 @@ export default function About() {
         ref = 0;
       }
       setImage(ref);
-    }, 1000);
+    }, 3000);
   }, [images]); 
 
   return (
