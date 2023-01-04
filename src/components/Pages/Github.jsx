@@ -1,5 +1,5 @@
 import gitHubLogo from "../../Assests/Images/GitHub-Logo.png";
-import gitHubGistLogo from "../../Assests/Images/GitHubGistlogo.png";
+import gitHubGistLogo from "../../Assests/Images/gitHubGistlogo.png";
 
 export default function Github() {
   return (
