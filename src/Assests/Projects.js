@@ -6,7 +6,7 @@ const projects = [
     {
         title: "Lydia",
         description:
-          "Choose your own story web application where every choice could resullt in your death. Lydia Inspired by by Beetlejuice is the 'entity' with which you must escape. We added a chatbot so you can speak with Lydia, However it comes from an Insult API so chat at your own Risk.. ",
+          "Choose your own story web application where every choice could resullt in your death. The name Lydia Inspired by Beetlejuice is the 'entity' inspired by The Ring with which you must escape. We added a chatbot so you can speak with Lydia, However it comes from an Insult API so chat at your own Risk.. ",
         img: LydiaImg,
         url: "https://jasonsin88.github.io/Bass/",
         key: "0",
@@ -16,7 +16,7 @@ const projects = [
       title: "Taco Employee Tracker",
       description:
         "With this web Application you can keep track of your entire companies employees. You can track by salary, department, title, or id. You can enter new or update current employeess information, you can transfer rolls update titles move departments cut or increase salaries. The perfect HR Web Tool",
-      img:"https://user-images.githubusercontent.com/103152585/203450049-7279a006-f774-4326-ad9a-12a737484015.png" ,
+      img:"https://user-images.githubusercontent.com/103152585/214474034-4d565d29-bcb9-4f1a-b10b-503ef5b5f7ca.png" ,
       url: "https://vaubrey7.github.io/Taco_Employee_Tracker/",
       key: "1",
       repurl: "https://github.com/vaubrey7/Taco_Employee_Tracker",
@@ -34,7 +34,7 @@ const projects = [
       title: "E-Commerce Back-End",
       description:
         "Mock-up of a fully operational API created with SQL, express and Sequelize.",
-      video: "https://youtu.be/wAKwScYeXN0",
+      img: "https://youtu.be/wAKwScYeXN0",
       url: "https://vaubrey7.github.io/ORM_Ecommerce_Back_End/",
       key: "3",
       repurl: "https://github.com/vaubrey7/ORM_Ecommerce_Back_End/settings/pages",
@@ -42,8 +42,8 @@ const projects = [
     {
       title: "Taco Book Search Engine",
       description:
-        "A survey builder for creating and surveying people easily online.",
-      img: "https://github.com/vaubrey7/Taco_Book_Search_Engine/blob/main/Assets/2022-12-19%20(3).png",
+        "A Search Engine that allows you search for Taco Books! or any other book if you want to.. .",
+      img: "https://raw.githubusercontent.com/vaubrey7/Taco_Book_Search_Engine/main/Assets/2022-12-19%20(3).png",
       url: "https://vaubrey7.github.io/Taco_Book_Search_Engine/",
       key: "4",
       repurl: "https://github.com/vaubrey7/Taco_Book_Search_Engine",

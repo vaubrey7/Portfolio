@@ -37,7 +37,7 @@ export default function About() {
           </div>
           <div className="bg-gray-100 shadow">
             <h1 className="sm:text-3xl text-2xl py-2 font-medium title-font text-center text-gray-900 mb-20 transition-opacity">
-              Hi there!
+              Hello!
               <br className="sm:block" />
               My Names Vaughn,
               <br className="sm:block" />
