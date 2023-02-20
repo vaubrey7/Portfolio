@@ -56,7 +56,7 @@ export default function Example() {
                   )}
                 </Disclosure.Button>
               </div>
-              <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-center bg-black">
+              <div className="flex flex-1 items-center justify-center bg:items-stretch sm:justify-center bg-black">
 
                 {/* LOGO ON NAVBAR */}
                 <Logo />
