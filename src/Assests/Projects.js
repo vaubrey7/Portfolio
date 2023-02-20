@@ -16,7 +16,7 @@ const projects = [
       title: "Taco Employee Tracker",
       description:
         "With this web Application you can keep track of your entire companies employees. You can track by salary, department, title, or id. You can enter new or update current employeess information, you can transfer rolls update titles move departments cut or increase salaries. The perfect HR Web Tool",
-      img:"https://user-images.githubusercontent.com/103152585/214474034-4d565d29-bcb9-4f1a-b10b-503ef5b5f7ca.png" ,
+      img:"https://user-images.githubusercontent.com/103152585/203450049-7279a006-f774-4326-ad9a-12a737484015.png" ,
       url: "https://vaubrey7.github.io/Taco_Employee_Tracker/",
       key: "1",
       repurl: "https://github.com/vaubrey7/Taco_Employee_Tracker",
@@ -34,7 +34,7 @@ const projects = [
       title: "E-Commerce Back-End",
       description:
         "Mock-up of a fully operational API created with SQL, express and Sequelize.",
-      img: "https://youtu.be/wAKwScYeXN0",
+      img: "2023-01-24.png",
       url: "https://vaubrey7.github.io/ORM_Ecommerce_Back_End/",
       key: "3",
       repurl: "https://github.com/vaubrey7/ORM_Ecommerce_Back_End/settings/pages",
@@ -44,7 +44,7 @@ const projects = [
       description:
         "A Search Engine that allows you search for Taco Books! or any other book if you want to.. .",
       img: "https://raw.githubusercontent.com/vaubrey7/Taco_Book_Search_Engine/main/Assets/2022-12-19%20(3).png",
-      url: "https://vaubrey7.github.io/Taco_Book_Search_Engine/",
+      url: "https://github.com/vaubrey7/Taco_Book_Search_Engine",
       key: "4",
       repurl: "https://github.com/vaubrey7/Taco_Book_Search_Engine",
     },

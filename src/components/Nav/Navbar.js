@@ -24,8 +24,8 @@ function CustomLink({ to, children, ...props }) {
   console.log(isCurrent)
   const className = classNames(
     isCurrent
-      ? "bg-amber-400 text-white font-bold"
-      : "text-white hover:bg-amber-600 hover:text-white hover:font-semibold",
+      ? "bg-grey-400 text-white font-bold"
+      : "text-white hover:bg-grey-600 hover:text-white hover:font-semibold",
     "px-3 py-2 rounded-md text-sm font-medium"
   )
 
@@ -40,14 +40,14 @@ function CustomLink({ to, children, ...props }) {
 
 export default function Example() {
   return (
-    <Disclosure as="nav" className="bg-amber-500">
+    <Disclosure as="nav" className="bg-black-500">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
             <div className="relative flex h-16 items-center justify-between">
                 {/* Mobile menu button*/}
               <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
-                <Disclosure.Button className="inline-flex items-center justify-center rounded-md p-2 text-white hover:bg-amber-600 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+                <Disclosure.Button className="inline-flex items-center justify-center rounded-md p-2 text-white hover:bg-grey-600 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
                   <span className="sr-only">Open main menu</span>
                   {open ? (
                     <XMarkIcon className="block h-6 w-6" aria-hidden="true" />
@@ -90,8 +90,8 @@ export default function Example() {
                   href={item.to}
                   className={classNames(
                     item.current
-                      ? "bg-amber-400 text-white font-bold"
-                      : "text-white hover:bg-amber-600",
+                      ? "bg-grey-400 text-white font-bold"
+                      : "text-white hover:bg-grey-600",
                     "block px-3 py-2 rounded-md text-base font-medium"
                   )}
                   aria-current={item.current ? "page" : undefined}
