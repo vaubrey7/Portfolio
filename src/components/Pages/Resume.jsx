@@ -19,7 +19,7 @@ export default function Resume() {
               <div className="flex-col md:mt-4 mt-6">
                 <button className="inline text-white bg-indigo-500 border-0 py-1 px-4 focus:outline-none hover:bg-indigo-600 rounded">
                   <a
-                    href="https://docs.google.com/document/d/1iZshZk2aBimLwYFU8B1mnkd5HKMWRToGx4stLeSnov8/edit?usp=sharing"
+                    href="https://drive.google.com/file/d/1HAa_A8zbx38Cg0wPoJkiBO6MErZ9-UIy/view?usp=sharing"
                     className="white inline-flex items-center ml-4"
                   >
                     See Resume

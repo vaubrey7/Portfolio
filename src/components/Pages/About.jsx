@@ -27,10 +27,10 @@ export default function About() {
   return (
     <>
       <section className="text-gray-600 body-font">
-        <div className="container px-5 py-12 mx-auto">
+        <div className="container px-15 py-1 mx-auto">
           <div className="">
             <img
-              className="w-2/5 inline"
+              className="w-1/4 inline"
               src={images[imageIdx]}
               alt="An Image"
             />

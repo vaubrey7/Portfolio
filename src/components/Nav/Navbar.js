@@ -43,7 +43,7 @@ export default function Example() {
     <Disclosure as="nav" className="bg-black-500">
       {({ open }) => (
         <>
-          <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+          <div className="mx-auto max-w-10x12 px-12 sm:px-0 lg:px-8">
             <div className="relative flex h-16 items-center justify-between">
               {/* Mobile menu button*/}
               <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -56,14 +56,14 @@ export default function Example() {
                   )}
                 </Disclosure.Button>
               </div>
-              <div className="flex flex-1 items-center justify-center bg:items-stretch sm:justify-center bg-black">
+              <div className="flex flex-1 items-center justify-center bg:items-stretch bg:justify-center bg-black">
 
                 {/* LOGO ON NAVBAR */}
                 <Logo />
 
                 {/* Adds links for various "pages onto the Nav menu" */}
                 <div className="hidden sm:ml-6 sm:block">
-                  <ul className="flex space-x-4">
+                  <ul className="flex space-x-5">
                     {navigation.map((item) => (
                       <CustomLink
                         key={item.name}
@@ -82,7 +82,7 @@ export default function Example() {
           </div>
 
           <Disclosure.Panel className="sm:hidden">
-            <div className="space-y-1 px-2 pt-2 pb-3">
+            <div className="space-y-1 px-2 pt-3 pb-3">
               {navigation.map((item) => (
                 <Disclosure.Button
                   key={item.name}
@@ -92,7 +92,7 @@ export default function Example() {
                     item.current
                       ? "bg-grey-400 text-white font-bold"
                       : "text-white hover:bg-grey-600",
-                    "block px-3 py-2 rounded-md text-base font-medium"
+                    "block px-5 py-4 rounded-md text-base font-medium"
                   )}
                   aria-current={item.current ? "page" : undefined}
                 >
